@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ecom Experts - Your Partner in E-Commerce Success. Expert digital marketing services for Facebook Ads, Shopify, Supplier Connect, and more.">
+    <meta name="keywords" content="ecommerce marketing, Facebook ads, Shopify development, supplier connections, account management, Meesho, Flipkart, Amazon">
+    <title>Ecom Experts - Your Partner in E-Commerce Success</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        p {
+            font-size: 1rem;
+        }
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+        }
+        .btn-whatsapp i {
+            margin-right: 8px;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1920x1080/0000FF/FFFFFF?text=Professional+Workspace') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero-content p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        /* Reviews Section */
+        .reviews {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+        }
+        .reviews h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #000;
+        }
+        .review-slider {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 0 20px;
+        }
+        .review-item {
+            min-width: 300px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .review-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        /* Services Section */
+        .services {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+        .services h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #000;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card i {
+            font-size: 3rem;
+            color: #0047AB;
+            margin-bottom: 20px;
+        }
+        .service-card h3 {
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .service-card p {
+            margin-bottom: 15px;
+        }
+        .service-card .price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #0047AB;
+            margin-bottom: 20px;
+        }
+        /* Contact Section */
+        .contact {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #0047AB, #000);
+            color: #fff;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+        .contact .btn-whatsapp {
+            font-size: 1.5rem;
+            padding: 15px 30px;
+        }
+        /* Footer */
+        .footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+            .hero-content p {
+                font-size: 1.2rem;
+            }
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .review-slider {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ecom Experts</h1>
+                <p>Your Partner in E-Commerce Success</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="review-slider">
+                <div class="review-item">
+                    <img src="https://via.placeholder.com/300x200/FFFFFF/000000?text=Client+Review+1" alt="Client Review 1">
+                    <p>"Ecom Experts boosted our sales by 300% with their Facebook Ads service!" - Happy Client</p>
+                </div>
+                <div class="review-item">
+                    <img src="https://via.placeholder.com/300x200/FFFFFF/000000?text=Client+Review+2" alt="Client Review 2">
+                    <p>"Their Shopify development is top-notch. Highly recommend!" - Satisfied Customer</p>
+                </div>
+                <div class="review-item">
+                    <img src="https://via.placeholder.com/300x200/FFFFFF/000000?text=Client+Review+3" alt="Client Review 3">
+                    <p>"Supplier Connect saved us time and money. Excellent service!" - Business Owner</p>
+                </div>
+                <div class="review-item">
+                    <img src="https://via.placeholder.com/300x200/FFFFFF/000000?text=Client+Review+4" alt="Client Review 4">
+                    <p>"Account Management is flawless. Our orders are always handled perfectly." - Ecommerce Pro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fab fa-facebook"></i>
+                    <h3>Facebook Ads</h3>
+                    <p>Expert ad setup, audience targeting, and ROI optimization</p>
+                    <div class="price">₹3499</div>
+                    <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20I%20am%20interested%20in%20Facebook%20Ads" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Shopify Web Development</h3>
+                    <p>Custom store design & launch</p>
+                    <div class="price">₹4999</div>
+                    <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20I%20am%20interested%20in%20Shopify%20Web%20Development" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Supplier Connect</h3>
+                    <p>Private & verified supplier connections</p>
+                    <div class="price">₹2999</div>
+                    <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20I%20am%20interested%20in%20Supplier%20Connect" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Account Management</h3>
+                    <p>Daily order & product handling</p>
+                    <div class="price">₹2499</div>
+                    <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20I%20am%20interested%20in%20Account%20Management" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-store"></i>
+                    <h3>Meesho Account Handling</h3>
+                    <p>Product upload, SEO, and performance tracking</p>
+                    <div class="price">₹1999</div>
+                    <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20I%20am%20interested%20in%20Meesho%20Account%20Handling" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-amazon"></i>
+                    <h3>Flipkart & Amazon Handling</h3>
+                    <p>Store setup, optimization & growth strategy</p>
+                    <div class="price">₹3999</div>
+                    <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20I%20am%20interested%20in%20Flipkart%20%26%20Amazon%20Handling" class="btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Let’s Grow Your Online Business Together!</h2>
+            <a href="https://wa.me/919876543210?text=Hello%20Ecom%20Experts%2C%20Let%27s%20grow%20my%20business%21" class="btn-whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ecom Experts | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple slider animation for reviews (optional enhancement)
+        const slider = document.querySelector('.review-slider');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+        });
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+        });
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 3;
+            slider.scrollLeft = scrollLeft - walk;
+        });
+    </script>
+</body>
+</html>
